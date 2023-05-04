@@ -10,10 +10,13 @@ class MyStack:
         self.elements.append(x)
     
     def pop(self):
-        return self.elements.pop()
-    
+        ## return self.elements.pop()
+        for element in range(len(self.elements - 1)):
+          self.elements.append(self.elements.popleft())
+        return self.elements.popleft()
+        
     def top(self):
         return self.elements[len(self.elements) - 1]
     
     def empty(self):
-        return self.elements == deque()
+        return len(self.elements) == 0
