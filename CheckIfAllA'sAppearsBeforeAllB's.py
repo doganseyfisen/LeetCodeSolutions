@@ -1,5 +1,5 @@
 """
-  @Author:
+  @Author: Doğan Seyfi Şen
 """
 class Solution:
     def checkString(self, s: str) -> bool:
