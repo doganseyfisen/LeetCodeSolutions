@@ -1,3 +1,6 @@
+"""
+  @Author: Doğan Seyfi Şen 
+"""
 class Solution:
     def isValid(self, s: str) -> bool:
         # Keys are opening, values are closing brackets
